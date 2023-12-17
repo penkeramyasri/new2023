@@ -1,0 +1,67 @@
+body{
+    background: linear-gradient(skyblue,lightgreen,lightyellow);
+    background-size: 100%;
+    text-align: center;
+}
+h1,p{
+    text-align: center;
+}
+h1{
+    font-size: 4rem;
+    font-family: Impact, sans-serif;
+}
+p{
+    font-style: italic;
+    font-size: larger;
+}
+a{
+ text-decoration: none;
+ font-size: 3rem;
+ color:black ;
+ font-family: 'Franklin Gothic Medium',  Arial, sans-serif;
+}
+a:hover{
+    color: red;
+}
+
+.container{
+    width: 50%;
+    margin:  auto ;
+    min-width: 250px;
+}
+.flame{
+    width: 6px;
+    height: 10px;
+    margin: auto;
+    background: linear-gradient(orange,red) ;
+}
+.candle{
+    width:10px;
+    height: 70px;
+    margin: auto;
+    background: linear-gradient(to right,lightgrey,white);
+    box-shadow: 0 0 20px 0 grey ;
+}
+.step{
+    margin: auto;
+    border-radius: 6px 6px 0 0;
+}
+.one{
+    height: 35px;
+    width: 150px;
+    background: linear-gradient(180deg,#47A992, #98EECC, #79E0EE);
+    box-shadow: 0 0 20px 0 #B799FFCC;
+    
+}
+.two{
+    height: 40px;
+    width: 200px;
+    background: linear-gradient(180deg,#860A35, #FF90C2, #ED5AB3);
+    box-shadow: 0 0 20px 0 #860A35CC;
+}
+.three{
+    height: 50px;
+    width: 250px;
+    background: linear-gradient(180deg,#FFA732, #FFF78A, #FFB534);
+    box-shadow: 0 0 20px 0 #FFA732CC;
+}
